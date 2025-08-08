@@ -1,7 +1,11 @@
+import { Outlet } from "react-router-dom"
 
 const App = () => {
   return (
-    <div>App</div>
+    <>
+      <h1>Dynamic Form Builder</h1>
+      <Outlet/>
+    </>
   )
 }
 
